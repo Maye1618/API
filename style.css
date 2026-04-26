@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    background-color: rgb(232, 166, 228);
+    color: white;
+    padding: 20px;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 30px;
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    border-top: 50px;
+    width: 250px;
+    height: 250px;
+
+}
+.image-container h2
+.image-container p {
+    background-color: transparent;
+    margin: 5px 0;
+}
+article {
+    padding: 50px;
+    box-sizing: 0px 0px 1px black;
+}
+
